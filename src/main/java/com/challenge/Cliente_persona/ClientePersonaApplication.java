@@ -1,4 +1,4 @@
-package com.challenge.Cliente_persona.Cliente_persona;
+package com.challenge.Cliente_persona;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
