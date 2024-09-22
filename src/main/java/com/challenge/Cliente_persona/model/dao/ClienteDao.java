@@ -5,4 +5,7 @@ import com.challenge.Cliente_persona.model.entity.Cliente;
 
 public interface ClienteDao extends JpaRepository<Cliente, Integer>  {
 
+	Cliente findByclienteid(Long id);
+	Boolean existsByclienteid(Long id);
+
 }

@@ -33,15 +33,15 @@ public class ClienteImpl implements ICliente{
 	}
 
 	@Override
-	public boolean existsById(Integer id) {
+	public boolean existsByclienteid(Long id) {
 		// TODO Auto-generated method stub
-		return clienteDao.existsById(id);
+		return clienteDao.existsByclienteid(id);
 	}
 	@Transactional(readOnly = true)
 	@Override
-	public Cliente findById(Integer id) {
+	public Cliente findByclienteid(Long id) {
 		// TODO Auto-generated method stub
-		return clienteDao.findById(id).orElse(null);
+		return clienteDao.findByclienteid(id);
 	}
 
 }

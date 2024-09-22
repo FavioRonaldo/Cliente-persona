@@ -6,6 +6,6 @@ public interface ICliente {
 	Cliente save(ClienteDto cuentadto);	
 	//List<Cuenta> findAllByFechaBetween(Date fechaInicio, Date fechaFin);
 	void delete(Cliente cliente);
-	boolean existsById(Integer id);
-	Cliente findById(Integer id);
+	Cliente findByclienteid(Long id);
+	boolean existsByclienteid(Long id);
 }
