@@ -10,7 +10,8 @@ import lombok.ToString;
 @ToString
 @Builder
 public class ClienteDto implements Serializable{
-    private String nombre;
+
+	private String nombre;
     private String genero;
     private Integer edad;
     private String identificacion;
